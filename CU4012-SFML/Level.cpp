@@ -31,6 +31,8 @@ void Level::render()
 {
 	beginDraw();
 
+	window->draw(rect);
+
 	endDraw();
 }
 
