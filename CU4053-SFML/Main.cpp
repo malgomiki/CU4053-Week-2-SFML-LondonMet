@@ -29,7 +29,7 @@ void windowProcess(sf::RenderWindow* window)
 int main()
 {
 	//Create the window
-	sf::RenderWindow window(sf::VideoMode(1200, 675), "CU4012-SFML");
+	sf::RenderWindow window(sf::VideoMode(1200, 675), "CU4053-SFML");
 
 	// Initialise input and level objects.
 	Level level(&window);
